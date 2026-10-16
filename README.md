@@ -1,53 +1,73 @@
-# Spelunkr TV — App Support Website (GitHub Pages)
+<div align="center">
+  <img src="assets/spelunkr-s.png" alt="Spelunkr TV pixel-S icon" width="132" height="132">
 
-This is a **ready-to-upload static website** for Spelunkr TV app support and privacy. No coding, custom domain, or build tools are required. It contains **no scripts, tracking pixels, advertising, or web forms**.
+  # Spelunkr TV
 
-## What to upload
+  **Classic channel surfing. A little nostalgia. A whole lot of television.**
 
-Upload these files and folders **at the repository root** (not inside an extra folder):
+  A free companion app bringing the spirit of [Spelunkr](https://spelunkr.tv/) to Apple TV, iPad, and compatible Apple devices.
+</div>
 
-- `index.html` — home / support landing page
-- `support.html` — help and contact
-- `privacy.html` — privacy policy
-- `styles.css` — retro theme
-- `assets/` — Spelunkr S artwork and favicon
-- `.nojekyll` — keeps this as a plain static site
+---
 
-`README.md` and `TVOS_PRIVACY_TEXT.txt` are development/helper files. You may include them in the GitHub repository; they do not affect the website.
+## Back to the days of channel surfing
 
-## Publish using only the GitHub website
+Remember flipping through channels, stumbling across an old favorite, and checking the TV guide to see what was on next?
 
-1. Sign into https://github.com and click **+** → **New repository**.
-2. Repository name: `spelunkr-tv-support` (recommended, but any name works).
-3. Set visibility to **Public** (free GitHub Pages works with public repositories).
-4. Do **not** initialize with a README; click **Create repository**.
-5. On the empty repo page, select **uploading an existing file** (or **Add file → Upload files**).
-6. Open this extracted ZIP in Finder. Drag **the files and `assets` folder inside it**, *not the enclosing site folder*, into the GitHub upload area. Be sure `index.html` and `assets/` appear in the root.
-7. Click **Commit changes**.
-8. In the repository, go to **Settings → Pages**.
-9. Under **Build and deployment**, set **Source** to `Deploy from a branch`.
-10. Choose branch `main` and folder `/(root)`, then **Save**.
-11. After GitHub publishes it, the Pages settings screen shows the live website URL. Open that URL and click **Support** and **Privacy** to verify both pages work. Deployment may take a few minutes.
+Spelunkr TV brings that experience to Apple devices with a retro-inspired program guide, scheduled vintage programming, and familiar channel controls. Instead of picking something from an endless on-demand catalog, you can simply tune in and see what's playing.
 
-> GitHub Pages URL usually looks like: `https://YOUR-GITHUB-USERNAME.github.io/spelunkr-tv-support/`.
-> This is **an example pattern**, not your actual URL; use the address shown by GitHub in Settings → Pages.
+### Features
 
-## Where to enter links in App Store Connect
+- **Retro TV guide** — Browse channels and see what's on now, up next, and later.
+- **Live-style programming** — Join each channel at its current position in the schedule.
+- **Pause, resume, and Go Live** — Take a break, continue watching, or return to the live position.
+- **Favorites** — Save channels for easier access.
+- **Full-screen viewing** — Switch from browsing the guide to watching a program.
+- **Native controls** — Use the Siri Remote on Apple TV or touch controls on iPad and iPhone.
+- **Updated channel lineup** — Channel and schedule information comes from the original Spelunkr service.
 
-After the site is actually live, use:
+The iOS app also runs on compatible Apple silicon Macs as a *Designed for iPad* app.
 
-- **Support URL (both platforms):** `YOUR-LIVE-PAGES-URL/support.html`
-- **Privacy Policy URL (iOS):** `YOUR-LIVE-PAGES-URL/privacy.html`
-- **Apple TV Privacy Policy text (tvOS):** copy the full contents of `TVOS_PRIVACY_TEXT.txt` into App Store Connect's tvOS privacy text field.
-- **Marketing URL (optional):** `YOUR-LIVE-PAGES-URL/` or leave it empty.
+## Get Spelunkr TV
 
-If GitHub provides a URL ending in `/`, add `support.html` or `privacy.html` immediately after that slash.
+App Store and TestFlight download links will be added here when available.
 
-### Notes
+In the meantime, you can explore the original experience at **[spelunkr.tv](https://spelunkr.tv/)**.
 
-- Website contact email is **support@routed.com**.
-- The site credits the **original Spelunkr creator** and the **Internet Archive**; it does not personally name the independent app developer.
-- This package does not modify any app source files or targets.
-- Review the privacy text if you later add analytics, accounts, crash reporting SDKs, advertising, or new third-party services.
-- The site uses relative links so it works from project-based GitHub Pages URLs without requiring you to edit any HTML.
-- If your account already owns a repository named `spelunkr-tv-support`, choose another repository name; the pages still work unchanged.
+## About the original project
+
+**The heart of this experience is the original [Spelunkr website](https://spelunkr.tv/).** Its creator, **u/thetalkinghawk**, conceived and built the site, curated the channels, and created the nostalgic television experience that inspired this companion app.
+
+A huge thank-you also goes to the **[Internet Archive](https://archive.org/)** and the people who preserve the vintage video material streamed by these channels.
+
+This app is a free, independent companion created out of appreciation for that work. If you enjoy it, please **visit [spelunkr.tv](https://spelunkr.tv/)** and look there for ways to support the original creator.
+
+## Help and support
+
+Having trouble with a channel, the guide, or playback? Start with our [Support page](https://jamesbabiak.github.io/SpelunkrTVApp/support.html).
+
+**Email:** [support@routed.com](mailto:support@routed.com)
+
+When reporting a problem, it helps to include your device type, operating system version, channel number, and what happened.
+
+Video availability and buffering can sometimes depend on the original Spelunkr service or Internet Archive.
+
+## Privacy
+
+Spelunkr TV does not require an account or subscription. Favorites and last-channel preferences are stored on your device. The app contacts external services to retrieve the channel guide and stream video.
+
+See the complete **[Privacy Policy](https://jamesbabiak.github.io/SpelunkrTVApp/privacy.html)** for details.
+
+## About this repository
+
+This repository hosts the public **Spelunkr TV support website and privacy information**. It is not the application's Swift source-code repository.
+
+- **[Website](https://jamesbabiak.github.io/SpelunkrTVApp/)**
+- **[Support](https://jamesbabiak.github.io/SpelunkrTVApp/support.html)**
+- **[Privacy Policy](https://jamesbabiak.github.io/SpelunkrTVApp/privacy.html)**
+
+---
+
+<div align="center">
+  <sub>Made for the joy of channel surfing. All appreciation to the original Spelunkr creator and the Internet Archive community.</sub>
+</div>
