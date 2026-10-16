@@ -1,0 +1,16 @@
+Spelunkr TV — Privacy Policy
+Effective date: October 16, 2026
+
+Spelunkr TV is an independent companion app for Apple TV, iPad, and compatible iPhones. It does not require an account.
+
+Information on your device: The app stores favorite channels and your most recently watched channel locally using Apple's UserDefaults. These preferences are not sent to the app developer.
+
+Online requests: The app connects to Spelunkr's channel and schedule services (including public Supabase-hosted data), spelunkr.tv for clock synchronization, and the Internet Archive to stream videos. These services may receive IP addresses, request details, timestamps, and standard network information. Their data practices are governed by their own policies. The app developer does not receive individual viewing logs from those providers.
+
+No accounts or ad tracking: The reviewed app version has no sign-in, advertising network, or app analytics/tracking SDK. There are no in-app purchases.
+
+Support email: If you email support@routed.com, we receive your email address and information you voluntarily provide. This is used to respond and troubleshoot issues; correspondence may be retained as needed. Contact us to request deletion of your support correspondence.
+
+Support website: Our GitHub Pages support site uses no custom analytics, tracking scripts, ads, or contact forms. GitHub may process standard web request information as the site host.
+
+Changes and contact: We may update this policy as the app changes. For privacy questions, email support@routed.com. The full policy is available on the app support website's Privacy page.
